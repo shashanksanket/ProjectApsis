@@ -10,10 +10,10 @@ function lineExpand() {
     document.getElementById('div3').style.height = "20px";
 }
 function show() {
-    document.getElementById('line').style.top = "0px"
+    document.getElementById('line').style.top = "0px";
 }
 function hide() {
-    document.getElementById('line').style.top = "-20px"
+    document.getElementById('line').style.top = "-20px";
 }
 function slide(tab) {
     if (tab == home) {
@@ -27,6 +27,9 @@ function slide(tab) {
     }
     if (tab == contact) {
         document.getElementById('line').style.left = "750px";
+    }
+    if (tab == India) {
+        document.getElementById('line').style.left = "930px";
     }
 }
 
@@ -44,7 +47,7 @@ function displayOff(event,id){
 }
 
 function display(event,id){
-    document.getElementById('India').style.visibility="hidden";
+    document.getElementById("India").style.visibility="hidden"; 
     const states=['wb','ut','up','tr','tn','tg','sk','rj','py','pb','or','nl','mz','mp','mn','ml','mh','ld','kl','ka','jk','jh','hr','hp','gj','ga','dn','dl','dd','ct','ch','br','as','ar','ap','an'];
     for (i=0;i<=36;i++){
         if (states[i]!=id){
@@ -56,3 +59,12 @@ function display(event,id){
         }
     }
 }
+
+function info(id) {
+    var x = document.getElementById(id);
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }

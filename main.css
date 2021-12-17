@@ -158,7 +158,7 @@ nav ul{
 }
 .icons #icon-2{
   position: relative;
-  top: 620px;
+  top: 760px;
   left: 10px;
 }
 .icons #icon-2 img{
@@ -186,7 +186,7 @@ nav ul{
 .icons #icon-5{
   position: relative;
   top: 500px;
-  left: 0px;
+  left: -270px;
 }
 .icons #icon-5 img{
   animation: iconAnimation 2.2s ease-in-out forwards;
@@ -225,17 +225,23 @@ nav ul{
 }
 
 .box {
-  background: rgb(255, 255, 255);
-  border: 1px solid black;
-  padding-top: 5px;
+  background-color:#fff;
+  /* border: 1px solid black; */
+  padding-top: 10px;
   padding-left: 15px;
   padding-right: 15px;
 
   border-radius: 5px;
   position: absolute;
   visibility: hidden;
-  text-align: center;
-  height: 100px;
+  /* text-align: center; */
+  /* height: 100px; */
+}
+
+.box img{
+  margin-left: 20px;
+  width: 100px;
+  height: 50px/;
 }
 
 .box #boxAN{
@@ -367,9 +373,45 @@ nav ul{
 #India{
   visibility: visible;
 }
+.sub-container1 ul li{
+  font-size: larger;
+  color: #291200;
+  font-weight: bolder;
+}
+.sub-container1 ul li p{
+  font-size: large;
+  color: #007bb7;
+}
+
+#imp1{
+  display: none;
+}
+
+#imp2{
+  display: none;
+}
+
+#imp3{
+  display: none;
+}
+
+#iup1{
+  display: none;
+}
+
+#iup2{
+  display: none;
+}
+
+#iup3{
+  display: none;
+}
 
 
 
+.sub-container1 ul li{
+  cursor: default;
+}
 
 
 #footer{
