@@ -383,7 +383,9 @@ nav ul{
   font-size: large;
   color: #007bb7;
 }
-
+.sub-container1 p{
+  display: none;
+}
 #imp1{
   display: none;
 }
