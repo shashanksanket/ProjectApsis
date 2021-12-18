@@ -242,7 +242,7 @@ nav ul{
 .box img{
   margin-left: 20px;
   width: 100px;
-  height: 50px/;
+  height: 50px;
 }
 
 .box #boxAN{
@@ -548,4 +548,106 @@ nav ul{
     color: #FEC72E;
   }
   
+
+  /* Portfolio page css */
+  .subc1{
+    position:absolute;
+    top: 200px;
+    left: 0px;
+  }
+
+
+  .column {
+    float: left;
+    width: 285px;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
   
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    background-color: #fff;
+  }
+  .containera1 {
+    padding: 0 16px;
+  }
+  .container-card1 {
+    margin-left: 10px;
+  }
+  
+  .container-card2 {
+    margin-left: 10px;
+  }
+  
+  .container-card3 {
+    margin-left: 10px;
+  }
+  
+  .container-card4 {
+    margin-left: 10px;
+  }
+  
+  .container-card5 {
+    margin-left: 10px;
+  }
+  
+
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  .subc1{
+    display: inline-block;
+   position: absolute;
+   animation: slideUp1 2s ease-in-out forwards;
+   top: 100px;
+   visibility: hidden;
+ }
+   
+ @keyframes slideUp1 {
+   from{top: 100px; opacity: 0;}
+   to{top: 150px; opacity: 1;}
+ }
+
+ /* About us page */
+
+ 
+
+ .sub-containera1{
+  display: inline-block;
+  position: absolute;
+  top: 300px;
+  left: 120px;
+  width: 40%;
+  animation: slideUp 2s ease-in-out forwards;
+  visibility: hidden;
+}
