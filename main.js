@@ -23,10 +23,10 @@ function slide(tab) {
         document.getElementById('line').style.left = "455px";
     }
     if (tab == services) {
-        document.getElementById('line').style.left = "585px";
+        document.getElementById('line').style.left = "625px";
     }
     if (tab == contact) {
-        document.getElementById('line').style.left = "750px";
+        document.getElementById('line').style.left = "800px";
     }
     if (tab == India) {
         document.getElementById('line').style.left = "930px";
