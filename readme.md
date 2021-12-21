@@ -1,1 +1,1 @@
-https://shashanksanket.github.io/ProjectExhibition/ --SITE LINK
+https://shashanksanket.github.io/ProjectExhibition/main.html --SITE LINK
